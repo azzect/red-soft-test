@@ -1,5 +1,10 @@
 # red-soft-tests
 
+## Дополнения 
+
+Размер контейнера в фигме 1216 пикселей.
+Использовал vue-class-component.
+Для обратной связи и вопросов telegram @azzect
 ## Project setup
 ```
 npm install
