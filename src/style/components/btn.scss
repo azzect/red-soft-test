@@ -1,0 +1,38 @@
+
+.btn:hover {
+  background: #776763;
+  color: rgba(244, 246, 249, 1);
+}
+
+
+.btn {
+  border: none;
+  background: #403432;
+  color: white;
+  padding: 0px;
+  
+  &__text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__icon {
+    margin-right: 8px;
+  }
+
+  &_activated {
+    background: #5B3A32;
+  }
+
+  &_disabled {
+    color: rgba(244, 246, 249, 1);
+    background: #C1B4B1;
+  }
+  &_disabled:hover {
+    color:rgba(244, 246, 249, 1);
+    background: #C1B4B1;
+    cursor: no-drop;
+  }
+  
+}

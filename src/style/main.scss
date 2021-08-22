@@ -1,0 +1,26 @@
+// fonts
+@import "./fonts/bold.scss";
+@import "./fonts/regular.scss";
+@import "./fonts/light.scss";
+
+// components
+@import "./components/header.scss";
+@import "./components/search-input.scss";
+@import "./components/btn.scss";
+@import "./components/page.scss";
+@import "./components/paint-card.scss";
+@import "./components/footer.scss";
+
+//typography
+@import "typography";
+
+body {
+  color: #343030;
+  margin: 0px;
+  background: #F6F3F3;
+}
+* {
+  font-family: 'Merriweather', serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

@@ -1,0 +1,22 @@
+.search-input {
+  width: 416px;
+  height: 48px;
+  display: flex;
+  flex-wrap: nowrap;
+
+  &__input {
+  width: 100%;
+  border: 1px solid #E1E1E1;
+  color: #9F9F9F;
+  outline: none;
+  padding-left: 16px;
+  }
+
+  &__btn {
+  min-width: 122px;
+  }
+}
+.search-input__input:focus {
+  border-color: #B5B5B5;
+  color: black;
+}

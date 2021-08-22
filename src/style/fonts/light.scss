@@ -1,0 +1,15 @@
+@import 'variables';
+
+/* merriweather-300 - latin */
+@font-face {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 300;
+  src: url('#{$fa-font-path}/merriweather-v25-latin-300.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('#{$fa-font-path}/merriweather-v25-latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('#{$fa-font-path}/merriweather-v25-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
+       url('#{$fa-font-path}/merriweather-v25-latin-300.woff') format('woff'), /* Modern Browsers */
+       url('#{$fa-font-path}/merriweather-v25-latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('#{$fa-font-path}/merriweather-v25-latin-300.svg#Merriweather') format('svg'); /* Legacy iOS */
+}
